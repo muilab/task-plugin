@@ -7,13 +7,14 @@
   "scripts": {
     "build": "rete --build rete.config.js",
     "build:dev": "rete --build rete.config.js --watch",
+    "prepare": "npm run build",
     "prepublishOnly": "npm run build"
   },
   "author": "Vitaliy Stoliarov",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/retejs/task-plugin.git"
+    "url": "https://github.com/muilab/task-plugin.git"
   },
   "dependencies": {},
   "devDependencies": {
